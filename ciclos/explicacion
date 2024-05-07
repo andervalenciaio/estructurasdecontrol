@@ -1,0 +1,35 @@
+## Explicacion de ejercicios 
+
+## 1 
+en este ejercicio declaramos la variable numero la cual va a ser igual a 1, luego creamos un ciclo while el cual nos traduce que  el numero es menor o igual a 20 y si el numero al dividirlo por 2 nos trae un residuo de cero entonces se imprime, luego se repite con un nuevo numero gracias a el ++.
+let numero = 1; 
+while (numero <= 20) { 
+    if (numero % 2 === 0) { 
+        console.log(numero); 
+    }
+    numero++; 
+}
+
+## 2
+en este ejercicio nescesite de la ayuda de una ia para lograr el proposito, ya que no tenia los conocimientos nescesarios para lograrlo, esta me dio unas cuantas nuevas funciones como por ejemplo: 
+
+let numeroSecreto = Math.floor(Math.random() * 100) + 1;
+
+ Math.random() = esta funcion me permite generar un numero aleatorio entre 0 y 1 Al multiplicarlo por 100, obtenemos un número entre 0 y 99.999… 
+ Luego
+Math.floor()= esta funcion redondea hacia abajo el entero mas cercano 
+resultando en un número entre 0 y 99. Finalmente, al sumar 1, conseguimos un número entre 1 y 100
+
+if isNaN(adivinanza){alert""}=verifica si la entrada no es un número. Si no lo es, se le pide al usuario que ingrese un número válido.
+
+## 3
+Se inicializa un array vacío llamado numeros para almacenar los números generados y una variable continuar como verdadera para controlar el bucle while.Dentro del bucle while, se genera un número aleatorio entre 1 y 10 usando Math.random() y se redondea hacia abajo con Math.floor().Después de cada iteración, se le pregunta al usuario si desea generar otro número. Si el usuario confirma (acepta), el bucle continúa. Si el usuario cancela, el bucle termina.
+Finalmente, se muestra en la consola la secuencia generada concatenando todos los números del array numeros separados por comas.
+
+## for
+para este ejercicio definimos una variable n con un valor de 100, que determina hasta qué número se va a iterar.
+luego  iniciamos  un bucle for que comienza desde 1 y continúa hasta n.
+Se verifica si el número actual (i) es divisible por 3 usando el operador % (módulo). Si es así, se concatena la cadena 'Fizz' a output.
+Se verifica si el número actual (i) es divisible por 5. Si es así, se concatena la cadena 'Buzz' a output.
+Si output sigue siendo una cadena vacía después de estas comprobaciones, significa que el número no es divisible ni por 3 ni por 5, por lo que simplemente se imprime el número actual (i).
+En cada iteración del bucle, se imprime en la consola output, que puede ser 'Fizz', 'Buzz', 'FizzBuzz' o el número actual, dependiendo de las condiciones anteriores.

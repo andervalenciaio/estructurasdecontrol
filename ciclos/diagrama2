@@ -1,0 +1,29 @@
+Inicio
+|
+v
+Generar arreglo 'numeros' vacío
+Establecer 'continuar' a verdadero
+|
+v
+¿'continuar' es verdadero?
+|
+|-- Si --|
+|        v
+|        Generar 'numeroAleatorio' entre 1 y 10
+|        ¿'numeroAleatorio' no está en 'numeros'?
+|        |
+|        |-- Si --|
+|        |        v
+|        |        Agregar 'numeroAleatorio' a 'numeros'
+|        |        Mostrar 'numeroAleatorio'
+|        |
+|        v
+|        Preguntar '¿Quieres generar otro número?'
+|        Actualizar 'continuar' según respuesta
+|
+|-- No --|
+         v
+         Mostrar 'Secuencia generada: ' + elementos de 'numeros'
+         |
+         v
+Fin
